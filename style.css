@@ -1,0 +1,126 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing :border-box;
+}
+body{
+    width: 100%;
+    min-height:100vh;
+    
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: #e618ba;
+}
+#sec{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 1%;
+   
+    margin-bottom: 100px;
+}
+table{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 1%;
+    border-collapse: collapse;
+    border-color: #25f02d;
+    margin-bottom: 100px;
+}
+thead{
+    background-color: #458475;
+}
+.header{
+    padding: 10px;
+    color: #ff59d4;
+    font-size: 16px;
+}
+th.mainData {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #32ccc5;
+}
+.totalUser{
+    padding: 5px;
+    text-align: left;
+    padding-left: 8%;
+    color: darkorange;
+}
+p.success {
+width: 209px;
+margin: auto;
+color: #fff;
+padding: 6px;
+margin-top: 2%;
+background: #27d427;
+}
+p.error{
+    width: 209px;
+    margin: auto;
+    color: #fff;
+    padding: 6px;
+    margin-top: 2%;
+    background: #eb0707;
+}
+p.noData {
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    background: red;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.profile_pic{
+    width: 50px;
+    height: 50px;
+}
+.serchBox {
+    background: #ddd;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 3px;
+}
+input.serchInput {
+    padding: 7px;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 100;
+}
+input.serchSubmit {
+    padding: 5px;
+    border-radius: 2px;
+    font-size: smaller;
+    border: 1px solid tomato;
+}
+input.bulkSubmit {
+    padding: 5px;
+    color: #e2d4cd;
+    border: none;
+    background: #634364;
+    font-size: 17px;
+}
+.regForm {
+    width: 900px;
+    background: #fb5300;
+    margin: auto;
+    /* align-content: space-between; */
+    padding: 20px;
+}
+.regForm form {
+    width: 100%;
+    /* align-content: space-between !important; */
+}
+.regForm form input {
+    width: 48%;
+    margin: auto;
+    text-align: center;
+    padding: 6px;
+}
